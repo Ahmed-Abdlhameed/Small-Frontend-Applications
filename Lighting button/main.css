@@ -1,0 +1,36 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  width: 200px;
+  padding: 20px;
+  border: 1.5px solid #ffffff;
+  border-radius: 10px;
+  margin: 50px auto;
+  cursor: pointer;
+}
+div:first-child {
+  background-color: #0c0a1b;
+  color: white;
+}
+div:nth-child(2) {
+  background-color: #ffffff;
+  color: black;
+}
+
+div:hover {
+  box-shadow: 0 0 78.9166px #ffffffb3, 0 0 26.3055px #fff6,
+    0 0 13.1528px #ffffff4d, 0 0 3.75793px #fff, 0 0 1.87897px #fff;
+  transform: scale(1.1);
+}
+
+body {
+  background-color: #0c0a1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
