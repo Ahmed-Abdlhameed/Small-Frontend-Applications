@@ -1,0 +1,60 @@
+div {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  background-color: #212121;
+  color: #fff;
+  padding: 15px;
+  width: 200px;
+  margin: 50px auto;
+  z-index: 3;
+  transition: 0.3s;
+  border-radius: 4px;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+div::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  z-index: -1;
+  background: #07dd80;
+  transition: 1s;
+}
+div:hover::before {
+  left: 0;
+  right: auto; /* used to reset the right value and apply the left */
+  width: 100%;
+}
+div:hover {
+  border: 1px solid #212121;
+  transform: scale(1.1);
+}
+
+/* 
+
+Notice that: if u removed right: auto; from div:hover::before {} the code will work correctly but
+if u switched the right: 0; in the div::before {} with left: 0; and then wrote right: 0; in 
+the div:hover::before {} the code won't work and it will return back from the left like this 
+right property was never written and i searched a lot for this but no clear answer but it seems
+that the left property is quite stronger than the right property and left is more close to 
+default so to do it in a right way you must use the auto or unset property to reset the value 
+you typed in the div::before {} and then apply the other direction property. 
+
+>> Chat GPT answer to the previous note:
+
+Thank you for explaining the issue you were facing. You are correct that the left property is more 
+specific than the right property, and when they are both used to position an element, the left property
+takes precedence.
+
+This means that if you set left: 0; in the div::before selector and right: 0; in the div:hover::before 
+selector, the left property in the div::before selector will override the right property in the
+div:hover::before selector, and the slider effect won't work correctly.
+
+*/
