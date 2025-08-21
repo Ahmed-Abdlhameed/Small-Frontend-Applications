@@ -41,9 +41,9 @@ This repository contains a collection of small Front-end applications i've creat
 - **[Application Files](MANA%20Button)**
 - **[Live Preview](https://codepen.io/Ahmed-Abdelhameed/full/ogjdbJK)**
 
-### Toggle Button
+### Toggle Switch Button
 - **Description**: This app creates a custom toggle switch styled with Font Awesome icons. When clicked, it smoothly transitions between an “X” (off state) and a checkmark (on state) with a sliding knob and color change.
-- **[Application Files](Toggle%20Button)**
+- **[Application Files](Toggle%20Switch%20Button)**
 - **[Live Preview](https://codepen.io/Ahmed-Abdelhameed/full/RNWyrmr)**
 
 ### WhatsApp Download Button
