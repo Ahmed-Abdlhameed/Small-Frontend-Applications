@@ -26,6 +26,33 @@ This repository contains a collection of small Front-end applications i've creat
 - **[Application Files](Burger%20Icon)**
 - **[Live Preview](https://codepen.io/Ahmed-Abdelhameed/full/dPYeGmB)**
 
+### FWD Button
+- **Description**: This app shows a styled “Hello!” button with a hover effect. When hovered, a green background slides in from the right while the button enlarges slightly with a scaling animation.
+- **[Application Files](FWD%20Button)**
+- **[Live Preview](https://codepen.io/Ahmed-Abdelhameed/full/WbQJrgO)**
+
+### Lighting Button
+- **Description**: This app displays two styled buttons with opposite color themes on a dark background. On hover, each button grows slightly and glows with a white multi-layered shadow effect.
+- **[Application Files](Lighting%20Button)**
+- **[Live Preview](https://codepen.io/Ahmed-Abdelhameed/full/YPyLwdP)**
+
+### MANA Button
+- **Description**: This app creates a rounded button with a bold orange background and subtle 3D border effect. On hover, the button shifts downward and flattens, mimicking a press animation.
+- **[Application Files](MANA%20Button)**
+- **[Live Preview](https://codepen.io/Ahmed-Abdelhameed/full/ogjdbJK)**
+
+### Toggle Button
+- **Description**: This app creates a custom toggle switch styled with Font Awesome icons. When clicked, it smoothly transitions between an “X” (off state) and a checkmark (on state) with a sliding knob and color change.
+- **[Application Files](Toggle%20Button)**
+- **[Live Preview](https://codepen.io/Ahmed-Abdelhameed/full/RNWyrmr)**
+
+### WhatsApp Download Button
+- **Description**: This app displays a WhatsApp-styled “Download” button with an animated icon. On hover, the button inverts colors, a circular ripple expands in the background, and the arrow icon gently bounces up and down.
+- **[Application Files](WhatsApp%20Download%20Button)**
+- **[Live Preview](https://codepen.io/Ahmed-Abdelhameed/full/dPYeGxP)**
+
+---
+
 ## How To Use
 
 1. Navigate to the application folder to review the code.
