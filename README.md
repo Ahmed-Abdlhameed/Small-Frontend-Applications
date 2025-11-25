@@ -4,7 +4,7 @@ This repository contains a collection of small Front-end applications i've creat
 
 ---
 
-## Table Of Contents
+## Table of Contents
 
 1. [Applications](#applications)
    - [Burger Icon](#burger-icon)
@@ -13,7 +13,7 @@ This repository contains a collection of small Front-end applications i've creat
    - [MANA Button](#mana-button)
    - [Toggle Switch Button](#toggle-switch-button)
    - [WhatsApp Download Button](#whatsapp-download-button)
-2. [How To Use](#how-to-use)
+2. [How to Use](#how-to-use)
 3. [Contributions](#contributions)
 4. [License](#license)
 
@@ -53,7 +53,7 @@ This repository contains a collection of small Front-end applications i've creat
 
 ---
 
-## How To Use
+## How to Use
 
 1. Navigate to the application folder to review the code.
 2. Experiment the code to review the output of the application yourself.
